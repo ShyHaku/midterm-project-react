@@ -1,0 +1,346 @@
+.Carde{
+  margin-top: 50px;
+  margin-left: 250px;
+  background-color: rgb(246, 246, 245);
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Cardlist{
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(246, 246, 245);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.LowItem{
+  margin-top: 50px;
+}
+
+body{
+ background-color: rgb(229, 229, 230);
+}
+h2{
+  text-align: center;
+}
+
+.ListLow{
+  text-align: center;
+  
+}
+
+.search-bar {
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-left:200px;
+ align-content: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: rgb(246, 246, 245);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar input[type="text"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-result {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.search-result h5 {
+  margin-bottom: 10px;
+}
+
+.search-result p {
+  margin-bottom: 10px;
+}
+
+
+
+/* Container styles */
+.delete-search-container {
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-left:200px;
+ align-content: center;
+  padding: 20px;
+  background-color: rgb(246, 246, 245);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form label styles */
+.delete-search-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Input field styles */
+.delete-search-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Search result styles */
+.delete-search-result {
+  margin-top: 20px;
+}
+
+.delete-search-result h5 {
+  margin-top: 0;
+}
+
+.delete-search-result p {
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.delete-search-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-search-button:hover {
+  background-color: #c82333;
+}
+
+/* Error message styles */
+.delete-search-error {
+  color: #dc3545;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+/* Container styles */
+.update-search-container {
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-left:200px;
+ align-content: center;
+  padding: 20px;
+  background-color: rgb(246, 246, 245);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form label styles */
+.update-search-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Input field styles */
+.update-search-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Search result styles */
+.update-search-result {
+  margin-top: 20px;
+}
+
+.update-search-result h5 {
+  margin-top: 0;
+}
+
+.update-search-result p {
+  margin-bottom: 10px;
+}
+
+/* Update form styles */
+.update-form {
+  margin-top: 20px;
+}
+
+.update-form label {
+  margin-bottom: 10px;
+}
+
+.update-form select {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update-form input[type="number"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styles */
+.update-search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.update-search-button:hover {
+  background-color: #0069d9;
+}
+
+/* Error message styles */
+.update-search-error {
+  color: #dc3545;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+/* Card styles */
+.low-stock-card {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(246, 246, 245);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card title styles */
+.low-stock-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+.low-stock-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.low-stock-table th,
+.low-stock-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.low-stock-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.low-stock-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* No items found message styles */
+.no-items-message {
+  text-align: center;
+  color: #dc3545; 
+}
+
+
+/* Card styles */
+.home-card {
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; 
+}
+
+.stock {
+  margin-top: 20px; 
+  padding: 5px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.stock h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.stock ul {
+  list-style: none;
+}
+
+
+/* Added styles for the new cards */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-grid > * {
+  flex-basis: 23%;
+  margin: 10px;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+}
